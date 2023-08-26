@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing background color with more colors</title>
+    <style>
+        button{
+                 width: 200px;
+                 align-items: center;
+                 display: flex;
+                 justify-content: center;
+                 margin-left: 640px;
+                 margin-top: 380px;
+                 background-color: rgb(84, 83, 83);
+                 color: white;
+                 padding: 10px;
+                 border-radius: 10px;
+                 border: 2px solid black;
+                 cursor: pointer;
+        }
+
+        button:hover{
+            transition: transform 0.2s, opacity 1s;
+            transform: scale(1.04); 
+        }
+    </style>
+</head>
+<body>
+      <div>
+        <button onclick="changecolor()">Change Background</button>
+      </div>
+</body>
+<script src="bg.js"></script>
+    
+</html>
